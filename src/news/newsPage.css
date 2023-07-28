@@ -1,0 +1,48 @@
+.main-title {
+  font-size: 30px;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  gap: 0.5rem;
+  padding: 20px 20px 20px 10px;
+  margin: 20px;
+}
+
+.news-title {
+  font-size: larger;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.news-image {
+  margin: 0.5rem;
+  padding: 8rem;
+  background-color: bisque;
+  border-radius: 0.3rem;
+}
+
+.news-author-date {
+  margin-left: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  font-size: small;
+}
+
+.news-description {
+  font-size: medium;
+  font-weight: 200;
+  color: gray;
+  margin-left: 0.5rem;
+}
+
+.news-cta {
+  font-size: small;
+  margin-left: 0.5rem;
+  color: blue;
+}
